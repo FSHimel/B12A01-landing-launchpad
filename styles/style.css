@@ -52,7 +52,46 @@ header{
     border-radius: 10px;
 }
 
+/* main section style */
 
+
+/* ABOUT SECT STYLE */
+.about{
+    max-width: 1140px;
+    height: 328px;
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 150px;
+    
+}
+.details{
+    margin-top: 62.5px;
+    margin-bottom: 62.5px;
+    max-width: 517px;
+    font-family: "Raleway", sans-serif;
+    
+}
+.details h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+.details p{
+    color: #323036;
+    opacity: 50%;
+    font-size: 24px;
+
+}
+.launch-button{
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #4E47FF;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 10px;
+}
+.about img{
+    border-radius: 42px;
+}
 /* Button hover effect */
 .btn:hover{
     background-color: rgb(129, 241, 10);
