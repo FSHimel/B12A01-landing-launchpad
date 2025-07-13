@@ -124,7 +124,57 @@ header{
     margin-top: 0px;
     text-align: center;
 }
-/* Button hover effect */
+
+ /* REVIEWS */
+ .review{
+    max-width: 1140px;
+    margin: 137px 150px;
+ }
+.review-main{
+    
+    display: flex;
+    gap: 20px;
+}
+.title-main{
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.review-sub{
+    border-radius: 14px;
+    box-shadow: 0.5px 0.5px 10px 0.5px black;
+    padding: 15px 30px;
+}
+.complement p{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+}
+.title{
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.users{
+    display: flex;
+    gap: 6px;
+}
+.users img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.name_date{
+    margin-top: 5px;
+}
+.name_date p{
+    margin: 0px;
+}
+.date{
+    color: rgb(179, 179, 179);
+}
+/*hover effect */
 .btn:hover{
     background-color: rgb(129, 241, 10);
     color: black;
