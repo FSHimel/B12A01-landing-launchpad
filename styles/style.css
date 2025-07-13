@@ -1,0 +1,53 @@
+header{
+    background-image: url(../Assets/Hero-bg.png); 
+    max-width: 1440px;
+    height: 698px;
+}
+
+/* nav style */
+
+.navbar{
+    max-width: 1140px;
+    height: 151px;
+    margin: 0 150px 150px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h2{
+    color: #4E47FF;
+    font-size: 34px;
+    margin: 50px 0;
+    font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 900;
+   font-style: normal;
+}
+.signup-button{
+    font-size: 16px;
+    margin: 51.5px 0;
+    padding: 10px 15px;
+    background-color: #4E47FF;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 10px;
+}
+
+/* intro style */
+
+.intro{
+    font-family: "Raleway", sans-serif;
+    max-width: 905px;
+    height: 237px;
+    margin: 158px 267px 152px 267px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+}
+.stayfocused-button{
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #4E47FF;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 10px;
+}
